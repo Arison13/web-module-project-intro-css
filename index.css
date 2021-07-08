@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+*{
+    
+    max-width: 100%;
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 0;
+    margin-top: 0;
+}
+img{
+    border-radius: 200px;
+    width:220px;
+    height:220px;
+    
+}
+nav {
+    text-align: center;
+}
+.plan {
+    text-decoration: none;
+    background: #FF764E;
+    border-radius: 12px;
+    margin-right:5rem;
+    padding:8px;
+    color: white;
+    display:inline-block;
+    width:10vw;
+} 
+.learn {
+    text-decoration: none;
+    background:#5ED3EB;
+    border-radius: 12px;
+    margin-right:5rem;
+    padding:8px;
+    color: white;
+    display:inline-block;
+    width:10vw;  
+}
+.get {
+    text-decoration: none;
+    background: #FFCD69;
+    border-radius: 12px;
+    margin-right:5rem;
+    padding:8px;
+    color: white;
+    display:inline-block;
+    width:10vw;
+}
+.logo {
+    display: inline-block;
+    padding: 3rem;
+    text-align: center;
+}
+header {
+    display:inline-block;
+    text-align: center;
+    padding:2rem;
+    margin:3rem 5rem;
+    max-width:40%;
+}
+header h1 {
+    font-family: 'Chelsea Market', cursive;
+}
+.banner {
+    color: hsl(208, 100%, 97%);
+    background-color:#DDB9A3;
+    max-width:80%;
+    text-align: center;
+    position: relative;
+    left:10rem;
+    padding:20px;
+}
+.first {
+    text-align: center;
+    font-size:14px;
+    max-width: 30%;
+    position: relative;
+    padding:2rem 0;
+    left:35rem;
+    color:gray;
+
+}
+
+ .first img {
+    width:150px;
+}
+
+.second {
+    text-align: center;
+    font-size:14px;
+    max-width: 30%;
+    position: relative;
+    padding:2rem 0;
+    left:35rem;
+    color:gray;
+}
+.second img {
+    width:150px;
+}
+.back-img {
+    background: url(http://127.0.0.1:5500/assets/footer_img.jpg);
+}
+span {
+    font-weight: bolder;
+    color:black;
+}
+footer {
+    background-color: #F9E7DC;
+}
+/* i dont know how to exatly do the footer, and honestly i could probably
+find a way to do it, but my brain is fried, sorry. */
+
